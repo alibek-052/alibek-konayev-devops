@@ -1,0 +1,5 @@
+Name: Alibek
+Surname: Konayev
+Group: IT2-2304
+Student ID: 38386
+Course: DevOps
