@@ -34,3 +34,8 @@ docker compose down
 ```
 
 Jenkins job name: `Konayev_Alibek_DevOps` (Pipeline script from SCM, script path `Jenkinsfile`).
+
+## Backup
+
+`scripts/backup.sh` creates a `.tar.gz` archive of `config/` and `logs/` in `backup/`
+(the folder is ignored by Git).
