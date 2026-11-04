@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    image: konayev-alibek-devops
+    container_name: konayev-alibek-container
+    environment:
+      STUDENT_NAME: "Alibek"
+      STUDENT_SURNAME: "Konayev"
+      STUDENT_GROUP: "IT2-2304"
+      STUDENT_ID: "38386"
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
