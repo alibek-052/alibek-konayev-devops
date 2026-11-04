@@ -1,0 +1,7 @@
+.git
+logs/
+backup/
+jenkins/
+permissions/
+*.md
+.env
