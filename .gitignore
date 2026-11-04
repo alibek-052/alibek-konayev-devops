@@ -1,0 +1,15 @@
+# Log files
+*.log
+
+# Local backups
+backup/
+
+# Environment files (may contain passwords / tokens)
+.env
+
+# Local demo files for the permissions exercise
+permissions/
+
+# Python cache
+__pycache__/
+*.pyc
